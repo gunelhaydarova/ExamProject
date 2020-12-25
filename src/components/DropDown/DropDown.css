@@ -1,0 +1,26 @@
+.design_num{
+    margin: 0 5px;
+    width: 17px;
+    padding: 3px;
+    font-size: 8.3px;
+    font-weight: bold;
+    line-height: 8.3px;
+    border-radius: 1.2px;
+
+}
+.menu__item{
+    background: white;
+}
+.drop_header{
+    padding: 18px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu__label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    color: #454460;
+}

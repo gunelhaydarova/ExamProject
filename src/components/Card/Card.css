@@ -1,0 +1,165 @@
+
+#card {
+    font-family: "Segoe UI";
+    margin: 2vh auto;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 242px;
+    height: 190px;
+    padding: 15px 15px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.show_m{
+    display: block;
+}
+.hide_m{
+    display: none;
+}
+#card .personal {
+    display: flex;
+    justify-content: initial
+
+}
+
+#card .nameHolder h1 {
+    margin:0;
+    margin-top: 6%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6F737C
+}
+
+#card .nameHolder h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #6F737C;
+}
+#card .design_num{
+    margin: 0 2px;
+    padding: 2px;
+
+}
+#card .info {
+    display: flex;
+    justify-content: space-around;
+    height: 50.7px;
+    background: #F7FCFF;
+    border-radius: 5.07016px;
+    color: #3b3a3a;
+    width: 90%;
+    margin: 5px auto;
+    text-align: left;
+    font-weight: 600;
+}
+#card .info p{
+    font-size: 11px;
+    line-height: 13px;
+    color: #5E646F;
+}
+#card .info span{
+    font-size: 12px;
+    line-height: 14px;
+    color: #9BA5B7;
+}
+#card .direct button{
+    border: none;
+}
+#card .avatar img {
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #fff;
+    margin-right: 5px;
+}
+
+#card .skills {
+    margin-bottom: 5px;
+}
+
+#card .skills span {
+    display: inline-block;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 32px;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #e4e4e4;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#card .direct {
+    width: 90% ;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 13px;
+    text-align: center;
+    color: #6e6e6e;
+    border-top: 1px solid #eaeaea;
+
+}
+
+#card .direct button {
+    width: 100%;
+    margin: 0 2px;
+    height: 30px;
+    background: #F0F4FF;
+    border-radius: 3.38011px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #507FF9;
+}
+#card .direct img{
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+
+#card .randomizeButton {
+    display: block;
+    background-color: #64bc7f;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px -25px -15px -25px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#card .randomizeButton:hover {
+    background-color: #57aa70;
+}
+
+.animate-change {
+    animation-name: slide-in;
+    animation-duration: 0.3s;
+}
+
+@keyframes slide-in {
+    from {
+        margin-left: -50px;
+        opacity: 0.2;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+.css-1xarhfg{
+    width: calc(100% - 300px);
+}
